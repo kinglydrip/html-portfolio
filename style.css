@@ -1,0 +1,19 @@
+header, footer {
+    text-align: center;
+}
+
+.project-container {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    place-items: center;
+}
+
+.project-link:link, .project-link:visited, .navigation-link:link, .navigation-link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.project-link:active, .project-link:hover, .navigation-link:active, .navigation-link:hover {
+    color: blue;
+}
+
